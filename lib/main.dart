@@ -118,9 +118,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     SizedBox(
                       height: 15.0,
                     ),
-                    IconButton.filled(onPressed:(){}, icon: 
-                    Icon(Icons.call,
-                    color: Color(0xff0A4D68),
+                    ElevatedButton.icon(onPressed: (){}, icon: Icon(Icons.call), label: Text('اتصل الآن'),
+                    style:  ElevatedButton.styleFrom(
+                      backgroundColor: Color(0xff0A4D68),
+                      padding: EdgeInsetsDirectional.symmetric(horizontal: 10.0)
                     ),
                     ),
                     ],
